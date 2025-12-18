@@ -19,7 +19,7 @@ jobs:
       - name: Run heartbeat script
         run: python heartbeat.py
 
-            - name: Commit & push if changes
+      - name: Commit & push if changes
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             THEME=$(python -c "import json;print(json.load(open('data/last_entry.json'))['theme'])")
