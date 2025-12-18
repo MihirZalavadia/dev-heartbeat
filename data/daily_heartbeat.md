@@ -1,0 +1,1 @@
+- 🔧 **LINUX** | Practiced log inspection using journalctl (2025-12-18 09:31:00 UTC)
