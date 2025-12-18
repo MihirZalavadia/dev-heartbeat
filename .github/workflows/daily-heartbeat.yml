@@ -19,13 +19,18 @@ jobs:
       - name: Run heartbeat script
         run: python heartbeat.py
 
-      - name: Commit & push if changes
+            - name: Commit & push if changes
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
+            THEME=$(python -c "import json;print(json.load(open('data/last_entry.json'))['theme'])")
+            ACTION=$(python -c "import json;print(json.load(open('data/last_entry.json'))['action'])")
+            TS=$(python -c "import json;print(json.load(open('data/last_entry.json'))['timestamp'])")
+
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
             git add .
-            git commit -m "chore: heartbeat $(date -u +'%Y-%m-%d %H:%M')"
+            git commit -m "🔧 ${THEME} | ${ACTION} (${TS})"
             git push
           else
             echo "No changes to commit."

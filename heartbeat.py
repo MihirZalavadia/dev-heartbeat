@@ -1,40 +1,71 @@
 import json
 import random
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
 LOG_FILE = Path("data/daily_heartbeat.md")
 STATE_FILE = Path("data/state.json")
+LAST_FILE = Path("data/last_entry.json")
 
 MIN_PER_DAY = 3
 MAX_PER_DAY = 10
 
+FORCE = os.getenv("FORCE_COMMIT") == "1"
+
+THEMES = {
+    "DOCKER": [
+        "Optimized Dockerfile layers",
+        "Rebuilt container image with slimmer base",
+        "Validated container startup behavior",
+    ],
+    "CI-CD": [
+        "Refined GitHub Actions workflow",
+        "Tested scheduled CI execution",
+        "Improved commit automation logic",
+    ],
+    "LINUX": [
+        "Practiced log inspection using journalctl",
+        "Checked open ports and firewall rules",
+        "Reviewed systemd service lifecycle",
+    ],
+    "CLOUD": [
+        "Reviewed Azure VM networking basics",
+        "Revisited IAM and access boundaries",
+        "Looked into cloud cost optimization patterns",
+    ],
+    "DEVOPS": [
+        "Reviewed monitoring vs alerting strategy",
+        "Reinforced infra-as-code concepts",
+        "Studied deployment reliability patterns",
+    ],
+}
+
 def utc_today():
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-def load_state():
-    if STATE_FILE.exists():
-        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
-    return {}
+def load_json(path: Path, default):
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    return default
 
-def save_state(state):
-    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
-    STATE_FILE.write_text(json.dumps(state, indent=2), encoding="utf-8")
+def save_json(path: Path, obj):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(obj, indent=2), encoding="utf-8")
 
 def ensure_log_header():
     LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
     if not LOG_FILE.exists():
         LOG_FILE.write_text(
             "# 🫀 Daily Dev Heartbeat\n\n"
-            "Auto-updated by GitHub Actions. Consistency > motivation.\n\n",
+            "Short daily engineering logs generated via GitHub Actions.\n\n",
             encoding="utf-8",
         )
 
 def main():
     today = utc_today()
-    state = load_state()
+    state = load_json(STATE_FILE, {})
 
-    # reset daily state
     if state.get("date") != today:
         state = {
             "date": today,
@@ -42,35 +73,34 @@ def main():
             "count": 0,
         }
 
-    # already done for today -> do nothing (no commit)
     if state["count"] >= state["target"]:
-        save_state(state)
+        save_json(STATE_FILE, state)
         return
 
-    # Decide whether to write this hour.
-    # Probability increases as day progresses (so we don't miss target).
-    # There are 24 runs/day. Remaining slots vs remaining commits:
-    remaining_commits = state["target"] - state["count"]
-
-    # Estimate remaining hourly runs in the day (rough but fine)
     hour = int(datetime.now(timezone.utc).strftime("%H"))
     remaining_slots = max(1, 24 - hour)
-
-    # Commit probability (cap at 0.8 to avoid burst spam)
+    remaining_commits = state["target"] - state["count"]
     p = min(0.8, remaining_commits / remaining_slots)
 
-    if random.random() > p:
-        save_state(state)
-        return  # no change -> no commit
+    if not FORCE and random.random() > p:
+        save_json(STATE_FILE, state)
+        return
 
-    # Make a real change (append a line)
+    theme = random.choice(list(THEMES.keys()))
+    action = random.choice(THEMES[theme])
+
     ensure_log_header()
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+
+    line = f"- 🔧 **{theme}** | {action} ({now})\n"
     with LOG_FILE.open("a", encoding="utf-8") as f:
-        f.write(f"- ✅ heartbeat @ **{now}** (#{state['count']+1}/{state['target']})\n")
+        f.write(line)
 
     state["count"] += 1
-    save_state(state)
+    save_json(STATE_FILE, state)
+
+    # Save last entry for commit message
+    save_json(LAST_FILE, {"theme": theme, "action": action, "timestamp": now})
 
 if __name__ == "__main__":
     main()

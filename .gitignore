@@ -4,3 +4,4 @@ __pycache__/
 data/*
 !data/daily_heartbeat.md
 !data/state.json
+!data/last_entry.json
