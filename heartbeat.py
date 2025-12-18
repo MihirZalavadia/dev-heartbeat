@@ -8,8 +8,8 @@ LOG_FILE = Path("data/daily_heartbeat.md")
 STATE_FILE = Path("data/state.json")
 LAST_FILE = Path("data/last_entry.json")
 
-MIN_PER_DAY = 3
-MAX_PER_DAY = 10
+MIN_PER_DAY = 5
+MAX_PER_DAY = 15
 
 FORCE = os.getenv("FORCE_COMMIT") == "1"
 
