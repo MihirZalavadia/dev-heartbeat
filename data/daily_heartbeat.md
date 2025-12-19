@@ -5,3 +5,4 @@
 - 🔧 **LINUX** | Checked open ports and firewall rules (2025-12-18 23:25:31 UTC)
 - 🔧 **CLOUD** | Looked into cloud cost optimization patterns (2025-12-19 05:28:52 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2025-12-19 12:54:57 UTC)
+- 🔧 **CLOUD** | Reviewed Azure VM networking basics (2025-12-19 15:29:21 UTC)
