@@ -3,3 +3,4 @@
 - 🔧 **LINUX** | Reviewed systemd service lifecycle (2025-12-18 16:38:11 UTC)
 - 🔧 **DEVOPS** | Reinforced infra-as-code concepts (2025-12-18 21:22:37 UTC)
 - 🔧 **LINUX** | Checked open ports and firewall rules (2025-12-18 23:25:31 UTC)
+- 🔧 **CLOUD** | Looked into cloud cost optimization patterns (2025-12-19 05:28:52 UTC)
