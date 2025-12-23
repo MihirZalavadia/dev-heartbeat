@@ -40,3 +40,4 @@
 - 🔧 **CI-CD** | Tested scheduled CI execution (2025-12-23 16:35:29 UTC)
 - 🔧 **LINUX** | Checked open ports and firewall rules (2025-12-23 18:39:31 UTC)
 - 🔧 **DOCKER** | Validated container startup behavior (2025-12-23 19:22:02 UTC)
+- 🔧 **LINUX** | Practiced log inspection using journalctl (2025-12-23 20:29:32 UTC)
