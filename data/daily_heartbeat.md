@@ -33,3 +33,4 @@
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2025-12-22 23:25:36 UTC)
 - 🔧 **DOCKER** | Validated container startup behavior (2025-12-23 02:07:30 UTC)
 - 🔧 **DOCKER** | Validated container startup behavior (2025-12-23 04:01:41 UTC)
+- 🔧 **CLOUD** | Reviewed Azure VM networking basics (2025-12-23 07:29:18 UTC)
