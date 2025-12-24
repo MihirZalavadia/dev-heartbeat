@@ -43,3 +43,4 @@
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2025-12-23 20:29:32 UTC)
 - 🔧 **CI-CD** | Improved commit automation logic (2025-12-23 23:25:01 UTC)
 - 🔧 **DEVOPS** | Studied deployment reliability patterns (2025-12-24 02:05:28 UTC)
+- 🔧 **CLOUD** | Reviewed Azure VM networking basics (2025-12-24 06:42:34 UTC)
