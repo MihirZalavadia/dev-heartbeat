@@ -59,3 +59,4 @@
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2025-12-25 09:29:41 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2025-12-25 10:29:01 UTC)
 - 🔧 **CI-CD** | Refined GitHub Actions workflow (2025-12-25 15:27:03 UTC)
+- 🔧 **LINUX** | Checked open ports and firewall rules (2025-12-25 17:23:34 UTC)
