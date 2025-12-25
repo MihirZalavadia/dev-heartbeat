@@ -63,3 +63,4 @@
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2025-12-25 18:37:29 UTC)
 - 🔧 **DOCKER** | Validated container startup behavior (2025-12-25 19:20:55 UTC)
 - 🔧 **CI-CD** | Refined GitHub Actions workflow (2025-12-25 21:24:30 UTC)
+- 🔧 **LINUX** | Practiced log inspection using journalctl (2025-12-25 22:26:00 UTC)
