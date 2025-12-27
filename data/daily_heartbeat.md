@@ -80,3 +80,4 @@
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2025-12-27 04:39:09 UTC)
 - 🔧 **CLOUD** | Looked into cloud cost optimization patterns (2025-12-27 05:27:41 UTC)
 - 🔧 **CI-CD** | Refined GitHub Actions workflow (2025-12-27 06:39:16 UTC)
+- 🔧 **CLOUD** | Reviewed Azure VM networking basics (2025-12-27 08:33:56 UTC)
