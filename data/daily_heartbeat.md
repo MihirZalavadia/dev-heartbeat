@@ -77,3 +77,4 @@
 - 🔧 **DOCKER** | Validated container startup behavior (2025-12-26 19:20:58 UTC)
 - 🔧 **DOCKER** | Rebuilt container image with slimmer base (2025-12-26 23:25:00 UTC)
 - 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2025-12-27 03:57:41 UTC)
+- 🔧 **LINUX** | Practiced log inspection using journalctl (2025-12-27 04:39:09 UTC)
