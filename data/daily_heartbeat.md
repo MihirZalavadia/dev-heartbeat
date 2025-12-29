@@ -101,3 +101,4 @@
 - 🔧 **DOCKER** | Rebuilt container image with slimmer base (2025-12-28 16:32:04 UTC)
 - 🔧 **DOCKER** | Rebuilt container image with slimmer base (2025-12-28 17:23:33 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2025-12-28 22:26:13 UTC)
+- 🔧 **LINUX** | Practiced log inspection using journalctl (2025-12-29 07:31:38 UTC)
