@@ -220,3 +220,4 @@
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-01-10 19:20:26 UTC)
 - 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-01-10 20:28:51 UTC)
 - 🔧 **DOCKER** | Rebuilt container image with slimmer base (2026-01-10 21:24:01 UTC)
+- 🔧 **LINUX** | Checked open ports and firewall rules (2026-01-10 22:25:59 UTC)
