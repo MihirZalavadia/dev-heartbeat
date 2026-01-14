@@ -261,3 +261,4 @@
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-01-14 17:32:38 UTC)
 - 🔧 **LINUX** | Reviewed systemd service lifecycle (2026-01-14 18:41:46 UTC)
 - 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-01-14 20:28:39 UTC)
+- 🔧 **LINUX** | Practiced log inspection using journalctl (2026-01-14 21:28:41 UTC)
