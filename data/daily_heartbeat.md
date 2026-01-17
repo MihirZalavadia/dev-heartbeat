@@ -286,3 +286,4 @@
 - 🔧 **DEVOPS** | Reinforced infra-as-code concepts (2026-01-16 20:28:22 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-01-16 21:27:23 UTC)
 - 🔧 **DEVOPS** | Studied deployment reliability patterns (2026-01-16 22:27:37 UTC)
+- 🔧 **LINUX** | Checked open ports and firewall rules (2026-01-17 02:05:19 UTC)
