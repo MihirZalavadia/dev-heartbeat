@@ -297,3 +297,4 @@
 - 🔧 **DOCKER** | Rebuilt container image with slimmer base (2026-01-18 06:39:44 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-01-18 13:33:30 UTC)
 - 🔧 **LINUX** | Reviewed systemd service lifecycle (2026-01-18 15:26:02 UTC)
+- 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-01-18 17:23:10 UTC)
