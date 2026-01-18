@@ -293,3 +293,4 @@
 - 🔧 **LINUX** | Checked open ports and firewall rules (2026-01-17 13:33:16 UTC)
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-01-17 14:25:06 UTC)
 - 🔧 **LINUX** | Checked open ports and firewall rules (2026-01-17 16:30:30 UTC)
+- 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-01-18 05:29:44 UTC)
