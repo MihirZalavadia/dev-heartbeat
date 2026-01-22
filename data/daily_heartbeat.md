@@ -334,3 +334,4 @@
 - 🔧 **LINUX** | Reviewed systemd service lifecycle (2026-01-22 16:42:31 UTC)
 - 🔧 **DOCKER** | Optimized Dockerfile layers (2026-01-22 18:42:47 UTC)
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-01-22 19:30:22 UTC)
+- 🔧 **LINUX** | Checked open ports and firewall rules (2026-01-22 20:35:41 UTC)
