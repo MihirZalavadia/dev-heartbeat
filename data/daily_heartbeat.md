@@ -345,3 +345,4 @@
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-01-23 17:30:07 UTC)
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-01-23 19:28:49 UTC)
 - 🔧 **LINUX** | Reviewed systemd service lifecycle (2026-01-23 20:33:22 UTC)
+- 🔧 **LINUX** | Checked open ports and firewall rules (2026-01-23 21:27:58 UTC)
