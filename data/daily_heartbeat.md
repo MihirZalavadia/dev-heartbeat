@@ -357,3 +357,4 @@
 - 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-01-24 18:38:12 UTC)
 - 🔧 **CI-CD** | Tested scheduled CI execution (2026-01-24 20:28:46 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-01-24 21:23:53 UTC)
+- 🔧 **LINUX** | Practiced log inspection using journalctl (2026-01-24 23:25:42 UTC)
