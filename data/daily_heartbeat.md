@@ -359,3 +359,4 @@
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-01-24 21:23:53 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-01-24 23:25:42 UTC)
 - 🔧 **DEVOPS** | Reinforced infra-as-code concepts (2026-01-25 02:29:10 UTC)
+- 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-01-25 09:28:32 UTC)
