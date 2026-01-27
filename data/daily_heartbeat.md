@@ -381,3 +381,4 @@
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-01-27 08:41:10 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-01-27 10:35:44 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-01-27 11:28:46 UTC)
+- 🔧 **DOCKER** | Optimized Dockerfile layers (2026-01-27 13:04:59 UTC)
