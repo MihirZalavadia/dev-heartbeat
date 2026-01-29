@@ -398,3 +398,4 @@
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-01-29 05:50:37 UTC)
 - 🔧 **DOCKER** | Validated container startup behavior (2026-01-29 06:57:35 UTC)
 - 🔧 **LINUX** | Checked open ports and firewall rules (2026-01-29 14:43:17 UTC)
+- 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-01-29 15:41:56 UTC)
