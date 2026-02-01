@@ -432,3 +432,4 @@
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-02-01 13:04:05 UTC)
 - 🔧 **DOCKER** | Optimized Dockerfile layers (2026-02-01 14:32:52 UTC)
 - 🔧 **CI-CD** | Refined GitHub Actions workflow (2026-02-01 17:30:48 UTC)
+- 🔧 **LINUX** | Checked open ports and firewall rules (2026-02-01 21:29:56 UTC)
