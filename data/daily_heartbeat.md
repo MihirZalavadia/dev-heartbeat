@@ -461,3 +461,4 @@
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-02-04 08:53:09 UTC)
 - 🔧 **CLOUD** | Looked into cloud cost optimization patterns (2026-02-04 10:49:30 UTC)
 - 🔧 **DOCKER** | Optimized Dockerfile layers (2026-02-04 13:14:47 UTC)
+- 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-02-04 14:48:44 UTC)
