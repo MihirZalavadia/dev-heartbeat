@@ -27,6 +27,13 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          set -e
+
+          if [[ -z "$GH_PAT" ]]; then
+            echo "ERROR: GH_PAT secret missing"
+            exit 1
+          fi
+
           if [[ -n "$(git status --porcelain)" ]]; then
             THEME=$(python -c "import json;print(json.load(open('data/last_entry.json'))['theme'])")
             ACTION=$(python -c "import json;print(json.load(open('data/last_entry.json'))['action'])")
@@ -38,8 +45,11 @@ jobs:
             git add .
             git commit -m "🔧 ${THEME} | ${ACTION} (${TS})"
 
-            # Push using PAT (replace REPO_NAME with your actual repository name)
             git remote set-url origin https://MihirZalavadia:${GH_PAT}@github.com/MihirZalavadia/dev-heartbeat.git
+
+            # 🔑 THIS LINE FIXES YOUR ERROR
+            git pull --rebase origin main
+
             git push origin main
           else
             echo "No changes to commit."
