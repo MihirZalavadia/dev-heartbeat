@@ -39,7 +39,7 @@ jobs:
             git commit -m "🔧 ${THEME} | ${ACTION} (${TS})"
 
             # Push using PAT (replace REPO_NAME with your actual repository name)
-            git remote set-url origin https://MihirZalavadia:${GH_PAT}@github.com/MihirZalavadia/REPO_NAME.git
+            git remote set-url origin https://MihirZalavadia:${GH_PAT}@github.com/MihirZalavadia/dev-heartbeat.git
             git push origin main
           else
             echo "No changes to commit."
