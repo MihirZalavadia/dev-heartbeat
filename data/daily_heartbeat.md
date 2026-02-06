@@ -482,3 +482,4 @@
 - 🔧 **CI-CD** | Refined GitHub Actions workflow (2026-02-06 10:49:31 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-02-06 13:17:28 UTC)
 - 🔧 **CLOUD** | Looked into cloud cost optimization patterns (2026-02-06 14:46:20 UTC)
+- 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-02-06 19:00:06 UTC)
