@@ -535,3 +535,4 @@
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-02-11 08:58:09 UTC)
 - 🔧 **DEVOPS** | Reinforced infra-as-code concepts (2026-02-11 10:03:08 UTC)
 - 🔧 **LINUX** | Reviewed systemd service lifecycle (2026-02-11 13:25:27 UTC)
+- 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-02-11 17:10:22 UTC)
