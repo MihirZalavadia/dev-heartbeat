@@ -562,3 +562,4 @@
 - 🔧 **DOCKER** | Optimized Dockerfile layers (2026-02-13 20:48:07 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-02-13 21:42:09 UTC)
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-02-14 08:40:26 UTC)
+- 🔧 **CLOUD** | Looked into cloud cost optimization patterns (2026-02-14 11:28:27 UTC)
