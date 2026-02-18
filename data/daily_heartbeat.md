@@ -595,3 +595,4 @@
 - 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-02-18 13:20:27 UTC)
 - 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-02-18 14:52:31 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-02-18 19:04:37 UTC)
+- 🔧 **LINUX** | Checked open ports and firewall rules (2026-02-18 21:43:51 UTC)
