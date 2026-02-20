@@ -608,3 +608,4 @@
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-02-20 08:51:08 UTC)
 - 🔧 **DOCKER** | Validated container startup behavior (2026-02-20 09:50:51 UTC)
 - 🔧 **CI-CD** | Improved commit automation logic (2026-02-20 11:37:41 UTC)
+- 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-02-20 15:42:25 UTC)
