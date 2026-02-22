@@ -624,3 +624,4 @@
 - 🔧 **DOCKER** | Validated container startup behavior (2026-02-21 23:31:10 UTC)
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-02-22 08:40:37 UTC)
 - 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-02-22 10:32:39 UTC)
+- 🔧 **LINUX** | Checked open ports and firewall rules (2026-02-22 13:04:05 UTC)
