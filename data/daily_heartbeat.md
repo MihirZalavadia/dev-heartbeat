@@ -625,3 +625,4 @@
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-02-22 08:40:37 UTC)
 - 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-02-22 10:32:39 UTC)
 - 🔧 **LINUX** | Checked open ports and firewall rules (2026-02-22 13:04:05 UTC)
+- 🔧 **DOCKER** | Optimized Dockerfile layers (2026-02-22 16:39:04 UTC)
