@@ -722,3 +722,4 @@
 - 🔧 **DOCKER** | Rebuilt container image with slimmer base (2026-03-04 17:46:17 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-03-05 02:39:50 UTC)
 - 🔧 **DEVOPS** | Reinforced infra-as-code concepts (2026-03-05 04:50:03 UTC)
+- 🔧 **LINUX** | Checked open ports and firewall rules (2026-03-05 05:54:02 UTC)
