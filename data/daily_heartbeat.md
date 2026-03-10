@@ -770,3 +770,4 @@
 - 🔧 **LINUX** | Checked open ports and firewall rules (2026-03-09 23:34:49 UTC)
 - 🔧 **DEVOPS** | Reinforced infra-as-code concepts (2026-03-10 04:46:41 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-03-10 05:52:02 UTC)
+- 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-03-10 07:00:06 UTC)
