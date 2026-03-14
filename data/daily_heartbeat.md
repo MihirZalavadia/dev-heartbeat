@@ -815,3 +815,4 @@
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-03-14 18:49:30 UTC)
 - 🔧 **CI-CD** | Tested scheduled CI execution (2026-03-14 19:33:04 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-03-14 21:32:14 UTC)
+- 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-03-14 23:34:45 UTC)
