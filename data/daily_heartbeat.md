@@ -835,3 +835,4 @@
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-03-16 13:41:34 UTC)
 - 🔧 **CI-CD** | Tested scheduled CI execution (2026-03-16 15:07:36 UTC)
 - 🔧 **CLOUD** | Looked into cloud cost optimization patterns (2026-03-16 17:10:03 UTC)
+- 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-03-16 19:13:25 UTC)
