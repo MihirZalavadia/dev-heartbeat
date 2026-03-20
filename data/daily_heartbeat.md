@@ -866,3 +866,4 @@
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-03-19 22:35:55 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-03-20 10:47:41 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-03-20 11:37:09 UTC)
+- 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-03-20 16:53:27 UTC)
