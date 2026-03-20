@@ -867,3 +867,4 @@
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-03-20 10:47:41 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-03-20 11:37:09 UTC)
 - 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-03-20 16:53:27 UTC)
+- 🔧 **DOCKER** | Optimized Dockerfile layers (2026-03-20 17:39:58 UTC)
