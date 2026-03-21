@@ -874,3 +874,4 @@
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-03-21 07:37:26 UTC)
 - 🔧 **DEVOPS** | Reinforced infra-as-code concepts (2026-03-21 08:41:26 UTC)
 - 🔧 **CI-CD** | Refined GitHub Actions workflow (2026-03-21 10:34:36 UTC)
+- 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-03-21 11:28:34 UTC)
