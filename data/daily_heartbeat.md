@@ -1091,3 +1091,4 @@
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-04-13 21:02:04 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-04-13 23:52:00 UTC)
 - 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-04-14 08:46:29 UTC)
+- 🔧 **CLOUD** | Looked into cloud cost optimization patterns (2026-04-14 10:20:12 UTC)
