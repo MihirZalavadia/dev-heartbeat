@@ -1107,3 +1107,4 @@
 - 🔧 **LINUX** | Reviewed systemd service lifecycle (2026-04-15 21:59:50 UTC)
 - 🔧 **DEVOPS** | Studied deployment reliability patterns (2026-04-15 22:55:49 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-04-15 23:52:57 UTC)
+- 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-04-16 06:06:36 UTC)
