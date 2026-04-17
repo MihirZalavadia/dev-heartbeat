@@ -1127,3 +1127,4 @@
 - 🔧 **CI-CD** | Tested scheduled CI execution (2026-04-17 19:14:31 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-04-17 20:54:32 UTC)
 - 🔧 **DOCKER** | Validated container startup behavior (2026-04-17 21:52:18 UTC)
+- 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-04-17 22:50:22 UTC)
