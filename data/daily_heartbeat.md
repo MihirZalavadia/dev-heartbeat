@@ -1123,3 +1123,4 @@
 - 🔧 **DOCKER** | Optimized Dockerfile layers (2026-04-17 13:49:22 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-04-17 15:00:52 UTC)
 - 🔧 **LINUX** | Practiced log inspection using journalctl (2026-04-17 16:59:09 UTC)
+- 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-04-17 17:57:58 UTC)
