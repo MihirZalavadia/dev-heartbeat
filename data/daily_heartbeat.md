@@ -1177,3 +1177,4 @@
 - 🔧 **DEVOPS** | Reinforced infra-as-code concepts (2026-04-23 21:56:14 UTC)
 - 🔧 **DOCKER** | Optimized Dockerfile layers (2026-04-24 06:13:19 UTC)
 - 🔧 **CLOUD** | Reviewed Azure VM networking basics (2026-04-24 11:11:51 UTC)
+- 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-04-24 13:52:48 UTC)
