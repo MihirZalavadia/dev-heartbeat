@@ -1226,3 +1226,4 @@
 - 🔧 **DOCKER** | Optimized Dockerfile layers (2026-04-30 22:01:33 UTC)
 - 🔧 **LINUX** | Checked open ports and firewall rules (2026-04-30 23:56:34 UTC)
 - 🔧 **CLOUD** | Revisited IAM and access boundaries (2026-05-01 09:52:03 UTC)
+- 🔧 **DEVOPS** | Reviewed monitoring vs alerting strategy (2026-05-01 17:03:32 UTC)
